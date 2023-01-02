@@ -1,0 +1,1435 @@
+                        /*     profile section css*/
+                        
+                        .header-title {
+                            margin-left: 20%;
+                            padding-bottom: 60px;
+                        }
+                        
+                        .recommend-header {
+                            margin-left: 20%;
+                        }
+                        
+                        .review-header {
+                            margin-left: 20%;
+                        }
+                        
+                        a:hover {
+                            color: #ed7619;
+                            text-decoration: none;
+                        }
+                        
+                        .recommended-menu a:hover {
+                            color: #0056b3;
+                            padding-top: 2%;
+                            text-decoration: none;
+                        }
+                        
+                        .recommended-menu a {
+                            padding-top: 2%;
+                            color: #ed7619;
+                            font-family: 'PT Serif', serif;
+                        }
+                        
+                        .img-review-icon {
+                            width: 28px;
+                            height: 18px;
+                        }
+                        
+                        .img-camera-icon {
+                            width: 20px;
+                            height: 18px;
+                        }
+                        
+                        .profile-img img {
+                            width: 200px;
+                            height: 208px;
+                            border: 3.5px solid #ff8000;
+                        }
+                        
+                        .txt-bold {
+                            font-family: 'PT Serif', serif;
+                            font-weight: bold;
+                            padding: 5px;
+                        }
+                        
+                        .profile-title {
+                            font-family: 'PT Serif', serif;
+                            margin-top: 5%;
+                            margin-left: 4%;
+                        }
+                        
+                        .about-title {
+                            margin-left: 1.2%;
+                        }
+                        
+                        .user-title {
+                            font-size: 13PX;
+                            font-family: 'PT Serif', serif;
+                        }
+                        
+                        .profile-title h3 {
+                            color: #ff8000;
+                            font-weight: bold;
+                        }
+                        
+                        .profile-title .fas {
+                            color: #ff8000;
+                            width: 28px;
+                            height: 18px;
+                        }
+                        
+                        .review-view .fas {
+                            color: #888684;
+                            width: 25px;
+                            height: 25px;
+                            font-size: 12px;
+                        }
+                        
+                        .dropdown-btn {
+                            border: 0px;
+                            background: #fff;
+                        }
+                        
+                        .dropdown-btn span {
+                            color: #888684;
+                        }
+                        
+                        .dropdown {
+                            padding-bottom: 15px;
+                        }
+                        
+                        .dropdown-btn:focus {
+                            outline: none;
+                        }
+                        
+                        .profile-title .txt {
+                            color: #ff8000;
+                            width: 28px;
+                            height: 18px;
+                        }
+                        
+                        .profile-menu {
+                            margin-top: 10%;
+                        }
+                        
+                        .profile-menu img {
+                            width: 22px;
+                            height: 18px;
+                        }
+                        
+                        .profile-menu .flag-icon {
+                            color: #9b9b9b;
+                            font-size: 10px;
+                            margin-left: 24%;
+                        }
+                        
+                        .profile-menu .fas {
+                            color: #9b9b9b;
+                        }
+                        
+                        .profile-menu .nav-pills .nav-link.active,
+                        .profile-menu .nav-pills .show>.nav-link {
+                            background-color: #d6d1de;
+                            width: 200px;
+                            height: 46px;
+                            text-align: center;
+                            opacity: 0.9;
+                            padding-top: 3%;
+                            border-radius: 0px;
+                            font-size: 15px;
+                            padding-top: 10px;
+                            color: #ff6c00;
+                            border-left: 3px solid #ff6c00;
+                        }
+                        
+                        hr {
+                            margin-top: 0.5rem;
+                            margin-bottom: 0.5rem;
+                            border: 0;
+                            border-top: 1px solid rgba(0, 0, 0, .1);
+                        }
+                        
+                        .profile-title .title-txt {
+                            color: #ff6c00;
+                            font-family: 'PT Serif', serif;
+                            margin-top: 5%;
+                            font-size: 20px;
+                        }
+                        
+                        .profile-title .info span {
+                            font-weight: bold;
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                            color: #202020;
+                        }
+                        
+                        .profile-title .info p {
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                            color: #5f5c5c;
+                        }
+                        
+                        .right-title {
+                            padding-left: 23%;
+                        }
+                        
+                        .profile-title .address {
+                            padding-bottom: 5%;
+                        }
+                        
+                        .profile-menu h5 {
+                            font-family: 'PT Serif', serif;
+                            font-size: 18px;
+                        }
+                        
+                        .nav-right-menu {
+                            padding-top: 22%;
+                        }
+                        
+                        .card {
+                            border: 3px solid rgba(134, 131, 131, 0.125);
+                            border-radius: 0.0rem;
+                        }
+                        
+                        .video-card img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                        
+                        .instagram-card .user-icon {
+                            width: 20px;
+                            height: 20px;
+                        }
+                        
+                        .instagram-card .img-thumbnail {
+                            border: 0px solid #dee2e6;
+                        }
+                        
+                        .video-title {
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                        
+                        .video-paragraph {
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                        }
+                        
+                        .table-body td {
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                            padding-left: 1%;
+                            color: #000000;
+                        }
+                        
+                        .table-body .checked_2 {
+                            color: #ff6c00;
+                        }
+                        
+                        .about-bar {
+                            border-bottom: 1px solid #ff6d00;
+                            margin-top: 4%;
+                            margin-left: -13.5%;
+                            width: 140%;
+                        }
+                        
+                        .review-votes {
+                            color: #ff6d00;
+                        }
+                        
+                        .value {
+                            color: #585858;
+                            font-weight: bold;
+                        }
+                        
+                        .instagram-title {
+                            font-family: 'PT Serif', serif;
+                            font-size: 9px;
+                            padding-top: 7px;
+                            width: 110%;
+                        }
+                        
+                        .video-card .instagram-img {
+                            width: 200px;
+                            height: 140px;
+                            border: 1px solid #fff;
+                        }
+                        
+                        .instagram-card .instagram-icon {
+                            width: 23px;
+                            height: 20px;
+                        }
+                        
+                        .instagram .fa-heart {
+                            color: #ff6d00;
+                        }
+                        
+                        .instagram .fa-heart {
+                            color: #ff6d00;
+                        }
+                        
+                        .instagram .fa-comment {
+                            color: #ff6d00;
+                        }
+                        
+                        .instagram .fa-location-arrow {
+                            color: #ff6d00;
+                        }
+                        
+                        .instagram .fa-bookmark {
+                            color: #000000;
+                            height: 15px;
+                        }
+                        
+                        .instagram .total-like {
+                            font-family: 'PT Serif', serif;
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                        
+                        .instagram .paragraph {
+                            font-size: 11px;
+                            color: #000000;
+                        }
+                        
+                        #nav-bar {
+                            margin-left: -6%;
+                        }
+                        
+                        #recommended {
+                            margin-left: -15%;
+                        }
+                        
+                        #food {
+                            margin-left: -15%;
+                        }
+                        
+                        .review .rounded-img {
+                            width: 100px;
+                            height: 90px;
+                            border: 3px solid #ff6d00;
+                            border-radius: 12%;
+                        }
+                        
+                        .review .review-title {
+                            font-family: 'PT Serif', serif;
+                            font-size: 14px;
+                        }
+                        
+                        .review .review-address {
+                            font-family: 'PT Serif', serif;
+                            font-size: 14px;
+                            margin-top: -50px;
+                        }
+                        
+                        .review .body-text {
+                            font-family: 'PT Serif', serif;
+                            font-size: 14px;
+                        }
+                        
+                        .review .review-img {
+                            padding-left: 10%;
+                        }
+                        
+                        .left-img {
+                            width: 240px;
+                            height: 260px;
+                            border-radius: 5%;
+                            margin-left: 6%;
+                        }
+                        
+                        .right-img {
+                            width: 150px;
+                            height: 122px;
+                            border-radius: 5%;
+                        }
+                        
+                        .right-full-img {
+                            width: 150px;
+                            height: 260px;
+                            border-radius: 5%;
+                        }
+                        
+                        .overlay-img {
+                            position: relative;
+                            width: 100%;
+                            max-width: 400px;
+                        }
+                        
+                        .overlay-img .image {
+                            display: block;
+                            width: 100%;
+                            /* height: auto; */
+                        }
+                        
+                        .overlay-img .overlay {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            width: 142px;
+                            height: 110px;
+                            opacity: 0;
+                            transition: .3s ease;
+                            background: rgba(10, 4, 4, 0.5);
+                            border-radius: 5%;
+                        }
+                        
+                        .overlay-img:hover .overlay {
+                            opacity: 1;
+                        }
+                        
+                        .overlay-img .overlay-txt {
+                            color: white;
+                            font-size: 100px;
+                            position: absolute;
+                            top: 30%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+                            text-align: center;
+                            text-decoration: none;
+                        }
+                        
+                        .overlay-img .text {
+                            color: #eee;
+                            font-size: 14px;
+                        }
+                        
+                        .social-title {
+                            margin-left: 17%;
+                        }
+                        
+                        tr:nth-child(n) td {
+                            padding-top: 0;
+                        }
+                        
+                        .youtube-title {
+                            font-size: 12px;
+                            font-family: 'PT Serif', serif;
+                            font-size: 22px;
+                            color: #ff6d00;
+                            font-weight: bold;
+                        }
+                        
+                        .recommend-title {
+                            font-size: 12px;
+                            font-family: 'PT Serif', serif;
+                            font-size: 22px;
+                            color: #ff6d00;
+                            font-weight: bold;
+                            margin-left: 0%;
+                            /* text-decoration: none; */
+                        }
+                        
+                        .review-header-title {
+                            font-size: 12px;
+                            font-family: 'PT Serif', serif;
+                            font-size: 22px;
+                            color: #ff6d00;
+                            font-weight: bold;
+                        }
+                        
+                        .recommended-section {
+                            margin-left: 30%;
+                        }
+                        
+                        .food-name {
+                            font-family: 'PT Serif', serif;
+                            font-size: 16px;
+                            width: 110px;
+                            padding-top: 16px;
+                            text-align: center;
+                        }
+                        
+                        .food-gallery {
+                            margin-left: 7%;
+                            padding-top: 5%;
+                        }
+                        
+                        .rest-address .review-address-txt {
+                            color: #000000;
+                            font-size: 14px;
+                        }
+                        
+                        .rest-address {
+                            margin-top: -14px;
+                        }
+                        /* #menu_item .active {
+    padding-top: 10%;
+} */
+                        
+                        @media only screen and (max-width:1200px) {
+                            .about-user {
+                                font-family: 'PT Serif', serif;
+                                font-size: 13px;
+                                margin-top: 5%;
+                                margin-left: 0%;
+                                padding-left: 18%;
+                            }
+                            .youtube-title {
+                                font-size: 15px;
+                            }
+                            .profile-title .title-txt {
+                                font-size: 15px;
+                            }
+                            .profile-menu h5 {
+                                font-size: 15px;
+                            }
+                            .youtube-section {
+                                margin-left: 12%;
+                            }
+                            .food-gallery {
+                                margin-left: -3%;
+                                padding-top: 5%;
+                            }
+                            .recommend-title {
+                                font-size: 15px;
+                            }
+                            #food {
+                                margin-left: -1%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:991px) {
+                            .youtube-title {
+                                font-size: 15px;
+                            }
+                            .right-title {
+                                padding-left: 17%;
+                                font-size: 14px;
+                                margin-left: -14%;
+                            }
+                            .nav-right-menu {
+                                padding-top: 10%;
+                            }
+                            .youtube-section {
+                                margin-left: 0%;
+                            }
+                            .about-bar {
+                                border-bottom: 0px solid #ff6d00;
+                                margin-top: 4%;
+                                margin-left: -13.5%;
+                                width: 140%;
+                            }
+                            .review-vote {
+                                padding-top: 4%;
+                            }
+                            .profile-title .info p {
+                                margin-bottom: -2%;
+                            }
+                            #food {
+                                margin-left: 0%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            .profile-title {
+                                font-family: 'PT Serif', serif;
+                                font-size: 15px;
+                                margin-top: 5%;
+                                margin-left: 0%;
+                                padding-left: 5%;
+                            }
+                            .profile-title h3 {
+                                font-size: 22px;
+                            }
+                            .food-gallery {
+                                margin-left: 9%;
+                            }
+                            .review .review-address {
+                                padding-left: 0px;
+                            }
+                            .review .body-text {
+                                font-family: 'PT Serif', serif;
+                                font-size: 12px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:576px) {
+                            .profile-img img {
+                                width: 150px;
+                                height: 150px;
+                                border: 3.5px solid #ff8000;
+                            }
+                            .about-user {
+                                padding-left: 19%;
+                                font-size: 12px;
+                            }
+                            .profile-title h3 {
+                                font-size: 19px;
+                            }
+                            .food-gallery {
+                                margin-left: 10%;
+                            }
+                            #menu ul li a {
+                                font-size: 13px;
+                            }
+                            .table-body .checked_2 {
+                                font-size: 9px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:490px) {
+                            .profile-img img {
+                                width: 120px;
+                                height: 120px;
+                            }
+                            .about-user {
+                                padding-left: 19%;
+                                font-size: 10px;
+                            }
+                            .profile-title h3 {
+                                font-size: 15px;
+                            }
+                            .img-review-icon {
+                                width: 19px;
+                                height: 16px;
+                            }
+                            .img-camera-icon {
+                                width: 18px;
+                                height: 15px;
+                            }
+                            .right-title {
+                                font-size: 10px;
+                            }
+                            .profile-menu img {
+                                width: 18px;
+                                height: 15px;
+                            }
+                            .profile-menu .nav-pills .nav-link.active,
+                            .profile-menu .nav-pills .show>.nav-link {
+                                background-color: #d6d1de;
+                                width: 150px;
+                                height: 40px;
+                                text-align: center;
+                                opacity: 0.9;
+                                padding-top: 3%;
+                                border-radius: 0px;
+                                font-size: 10px;
+                                padding-top: 12px;
+                                color: #ff6c00;
+                                border-left: 3px solid #ff6c00;
+                            }
+                            .video-title {
+                                font-size: 10px;
+                            }
+                            .video-paragraph {
+                                font-size: 10px;
+                            }
+                            .youtube-title {
+                                font-size: 12px;
+                            }
+                            .food-gallery {
+                                margin-left: 10%;
+                            }
+                            .review-vote {
+                                padding-top: 6%;
+                            }
+                            .recommended-menu a {
+                                padding-top: 3%;
+                            }
+                            .recommended-menu a:hover {
+                                padding-top: 3%;
+                            }
+                            .recommend-title {
+                                font-size: 12px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:400px) {
+                            .profile-img img {
+                                width: 100px;
+                                height: 100px;
+                            }
+                            .about-user {
+                                padding-left: 19%;
+                                font-size: 10px;
+                            }
+                            .profile-title h3 {
+                                font-size: 15px;
+                            }
+                            .img-review-icon {
+                                width: 19px;
+                                height: 16px;
+                            }
+                            .img-camera-icon {
+                                width: 18px;
+                                height: 15px;
+                            }
+                            .right-title {
+                                font-size: 10px;
+                            }
+                            .youtube-title {
+                                font-size: 10px;
+                            }
+                            #menu ul li a {
+                                font-size: 10px;
+                            }
+                            .recommended-menu a {
+                                padding-top: 4%;
+                            }
+                            .recommended-menu a:hover {
+                                padding-top: 4%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:350px) {
+                            .profile-img img {
+                                width: 80px;
+                                height: 80px;
+                            }
+                            .profile-title {
+                                margin-top: 0%;
+                            }
+                            .about-user {
+                                padding-left: 19%;
+                                font-size: 10px;
+                            }
+                            .profile-title h3 {
+                                font-size: 15px;
+                            }
+                            .img-review-icon {
+                                width: 19px;
+                                height: 16px;
+                            }
+                            .img-camera-icon {
+                                width: 18px;
+                                height: 15px;
+                            }
+                            .right-title {
+                                font-size: 10px;
+                            }
+                            .food-name {
+                                font-size: 9px;
+                            }
+                            .food-gallery {
+                                margin-left: 4%;
+                            }
+                            #menu ul li a {
+                                font-size: 8px;
+                            }
+                            .review-vote {
+                                padding-top: 8%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:1401px) and (max-device-width: 1500px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 230px;
+                                height: 260px;
+                                border-radius: 5%;
+                                margin-left: 3%;
+                            }
+                            .right-full-img {
+                                width: 150px;
+                                height: 260px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:1300px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 220px;
+                                height: 235px;
+                                border-radius: 5%;
+                                margin-left: 29%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 108px;
+                                margin-left: 20%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 235px;
+                                margin-left: 20%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:1200px) and (max-device-width: 1299px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 220px;
+                                height: 235px;
+                                border-radius: 5%;
+                                margin-left: 25%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 108px;
+                                margin-left: 24%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 235px;
+                                margin-left: 24%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:1100px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 208px;
+                                height: 235px;
+                                border-radius: 5%;
+                                margin-left: 18%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 108px;
+                                margin-left: 20%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 235px;
+                                margin-left: 20%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:1024px) and (max-device-width: 1099px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 180px;
+                                height: 210px;
+                                border-radius: 5%;
+                                margin-left: 14%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 95px;
+                                margin-left: 10%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 210px;
+                                margin-left: 10%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:992px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .right-full-img {
+                                width: 120px;
+                                height: 210px;
+                                margin-left: 16%;
+                            }
+                            .left-img {
+                                width: 180px;
+                                height: 210px;
+                                border-radius: 5%;
+                                margin-left: 14%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 98px;
+                                margin-left: 16%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:550px) and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .right-full-img {
+                                width: 120px;
+                                height: 190px;
+                                margin-left: 16%;
+                            }
+                            .left-img {
+                                width: 170px;
+                                height: 190px;
+                                margin-left: 28%;
+                            }
+                            .right-img {
+                                width: 120px;
+                                height: 85px;
+                                margin-left: 16%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:515px) and (max-device-width: 549px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 180px;
+                                height: 210px;
+                                border-radius: 5%;
+                                margin-left: 16%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 98px;
+                                margin-left: 16%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 210px;
+                                margin-left: 16%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:481px) and (max-device-width: 514px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 180px;
+                                height: 210px;
+                                border-radius: 5%;
+                                margin-left: 6%;
+                            }
+                            .right-img {
+                                position: relative;
+                                width: 120px;
+                                height: 98px;
+                                margin-left: 16%;
+                            }
+                            .right-full-img {
+                                width: 120px;
+                                height: 210px;
+                                margin-left: 16%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:450px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 120px;
+                                height: 150px;
+                                margin-left: 32%;
+                            }
+                            .right-img {
+                                width: 100px;
+                                height: 65px;
+                                margin-left: 0%;
+                            }
+                            .right-full-img {
+                                width: 100px;
+                                height: 150px;
+                                margin-left: 0%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:400px) and (max-device-width: 449px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 120px;
+                                height: 150px;
+                                margin-left: 18%;
+                            }
+                            .right-img {
+                                width: 100px;
+                                height: 65px;
+                                margin-left: 0%;
+                            }
+                            .right-full-img {
+                                width: 100px;
+                                height: 150px;
+                                margin-left: 0%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:350px) and (max-device-width: 399px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 120px;
+                                height: 150px;
+                                margin-left: 8%;
+                            }
+                            .right-img {
+                                width: 100px;
+                                height: 65px;
+                                margin-left: 0%;
+                            }
+                            .right-full-img {
+                                width: 100px;
+                                height: 150px;
+                                margin-left: 0%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width:320px) and (max-device-width: 349px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .left-img {
+                                width: 120px;
+                                height: 150px;
+                                margin-left: 4%;
+                            }
+                            .right-img {
+                                width: 100px;
+                                height: 65px;
+                                margin-left: 5%;
+                            }
+                            .right-full-img {
+                                width: 100px;
+                                height: 150px;
+                                margin-left: 5%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 1201px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* recommended section  css*/
+                            .food-name {
+                                font-size: 13px;
+                                width: 110px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 20%;
+                            }
+                            .food-gallery img {
+                                width: 80px;
+                                height: 80px;
+                            }
+                            /* review section  css*/
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review-discription {
+                                margin-left: 5%;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .review .review-img {
+                                padding-left: 0%;
+                            }
+                            .overlay-img .overlay {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 2;
+                                width: 120px;
+                                height: 108px;
+                                opacity: 0;
+                                transition: .3s ease;
+                                background: rgba(10, 4, 4, 0.5);
+                                border-radius: 5%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* about us section  css*/
+                            .table-body td {
+                                font-size: 10px;
+                                padding-left: 0%;
+                            }
+                            /* recommended section  css*/
+                            .recommended-section {
+                                margin-left: 30%;
+                            }
+                            #recommended {
+                                margin-left: -1%;
+                            }
+                            #food {
+                                margin-left: -1%;
+                            }
+                            /* recommended section  css*/
+                            .food-name {
+                                font-size: 12px;
+                                width: 110px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 20%;
+                            }
+                            .food-gallery img {
+                                width: 80px;
+                                height: 80px;
+                            }
+                            /* review section  css*/
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .review .review-img {
+                                padding-left: 0%;
+                            }
+                            .review-discription span {
+                                font-size: 18px;
+                            }
+                            .review-discription {
+                                margin-left: 3%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 768px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* profile section  css*/
+                            .profile-menu .flag-icon {
+                                color: #9b9b9b;
+                                font-size: 10px;
+                                margin-left: 12%;
+                            }
+                            /* about us section  css*/
+                            .about-user {
+                                padding-left: 0%;
+                                font-size: 14px;
+                            }
+                            .about-bar {
+                                border-bottom: 0px solid #ff6d00;
+                            }
+                            /* recommended section  css*/
+                            .recommended-section {
+                                margin-left: 0%;
+                            }
+                            #nav-bar {
+                                margin-left: 6%;
+                            }
+                            .food-gallery {
+                                margin-left: 12%;
+                                padding-top: 5%;
+                            }
+                            .recommend-title {
+                                font-size: 15px;
+                                margin-right: 0%;
+                            }
+                            #recommended {
+                                margin-left: -1%;
+                            }
+                            #food {
+                                margin-left: -1%;
+                            }
+                            .food-name {
+                                font-size: 13px;
+                                width: 160px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 40%;
+                            }
+                            .food-gallery img {
+                                width: 70px;
+                                height: 70px;
+                            }
+                            /* review section  css*/
+                            .review-container {
+                                margin-top: 6%;
+                            }
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .left-img {
+                                width: 240px;
+                                height: 240px;
+                                margin-left: 15%;
+                            }
+                            .right-img {
+                                width: 120px;
+                                height: 108px;
+                                margin-left: 0%;
+                            }
+                            .right-full-img {
+                                width: 150px;
+                                height: 240px;
+                                margin-left: 0%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 650px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* recommended section  css*/
+                            .food-name {
+                                font-size: 12px;
+                                width: 200px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 40%;
+                            }
+                            .food-name {
+                                font-size: 10px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 576px) and (max-device-width: 649px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* recommended section  css*/
+                            .food-name {
+                                font-size: 12px;
+                                width: 200px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 40%;
+                            }
+                            .food-name {
+                                font-size: 10px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 576px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* profile section  css*/
+                            .profile-menu .flag-icon {
+                                color: #9b9b9b;
+                                font-size: 10px;
+                                margin-left: 12%;
+                            }
+                            /* recommended section  css*/
+                            .recommended-section {
+                                margin-left: 0%;
+                            }
+                            #nav-bar {
+                                margin-left: 6%;
+                            }
+                            .food-gallery {
+                                margin-left: 12%;
+                                padding-top: 5%;
+                            }
+                            #recommended {
+                                margin-left: 5%;
+                            }
+                            #food {
+                                margin-left: 5%;
+                            }
+                            /* review section  css*/
+                            .review-container {
+                                margin-top: 6%;
+                            }
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .left-img {
+                                width: 210px;
+                                height: 240px;
+                            }
+                            .right-img {
+                                width: 120px;
+                                height: 108px;
+                                margin-left: 0%;
+                            }
+                            .right-full-img {
+                                width: 150px;
+                                height: 240px;
+                                margin-left: 0%;
+                            }
+                            .review .rounded-img {
+                                margin-bottom: 5%;
+                            }
+                            .review-discription span {
+                                font-size: 19px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 490px) and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .food-name {
+                                font-size: 12px;
+                                width: 120px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 40%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 450px) and (max-device-width: 489px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .food-name {
+                                font-size: 10px;
+                                width: 130px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 44%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 400px) and (max-device-width: 449px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .food-name {
+                                font-size: 10px;
+                                width: 120px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 50%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 350px) and (max-device-width: 399px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .food-name {
+                                font-size: 9px;
+                                width: 130px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 60%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 320px) and (max-device-width: 349px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .food-name {
+                                font-size: 9px;
+                                width: 125px;
+                                padding-top: 15px;
+                                text-align: center;
+                                padding-right: 60%;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 481px) and (max-device-width: 575px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* profile section  css*/
+                            .profile-menu .flag-icon {
+                                color: #9b9b9b;
+                                font-size: 10px;
+                                margin-left: 12%;
+                            }
+                            /* recommended section  css*/
+                            .recommended-section {
+                                margin-left: 0%;
+                            }
+                            #nav-bar {
+                                margin-left: 6%;
+                            }
+                            .food-gallery {
+                                margin-left: 8%;
+                                padding-top: 5%;
+                            }
+                            #food {
+                                margin-left: 4%;
+                            }
+                            #recommended {
+                                margin-left: 4%;
+                            }
+                            .food-gallery img {
+                                width: 60px;
+                                height: 60px;
+                            }
+                            /* review section  css*/
+                            .review-container {
+                                margin-top: 6%;
+                            }
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .review .rounded-img {
+                                margin-bottom: 5%;
+                            }
+                            .review .review-img {
+                                padding-left: 0%;
+                            }
+                            .review-discription span {
+                                font-size: 19px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 400px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+                            /* profile section  css*/
+                            .profile-menu .flag-icon {
+                                color: #9b9b9b;
+                                font-size: 10px;
+                                margin-left: 16%;
+                            }
+                            /* recommended section  css*/
+                            .recommended-section {
+                                margin-left: 0%;
+                            }
+                            #nav-bar {
+                                margin-left: 6%;
+                            }
+                            .food-gallery {
+                                margin-left: 12%;
+                                padding-top: 5%;
+                            }
+                            #recommended {
+                                margin-left: 3%;
+                            }
+                            .food-gallery img {
+                                width: 60px;
+                                height: 60px;
+                            }
+                            /* review section  css*/
+                            .review-container {
+                                margin-top: 7%;
+                            }
+                            .review-header-title {
+                                font-size: 15px;
+                                margin-left: 10%;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .review .rounded-img {
+                                margin-bottom: 5%;
+                            }
+                            .review .review-img {
+                                padding-left: 0%;
+                            }
+                            .review-discription span {
+                                font-size: 19px;
+                            }
+                        }
+                        
+                        @media screen and (min-device-width: 320px) and (max-device-width: 399px) and (-webkit-min-device-pixel-ratio: 1) {
+                            .recommended-section {
+                                margin-left: 0%;
+                            }
+                            .food-gallery img {
+                                width: 60px;
+                                height: 60px;
+                            }
+                            #nav-bar {
+                                margin-left: 6%;
+                            }
+                            .food-gallery {
+                                margin-left: 5%;
+                                padding-top: 5%;
+                            }
+                            #food {
+                                margin-left: 3%;
+                            }
+                            #recommended {
+                                margin-left: 4%;
+                            }
+                            .table-responsive-sm {
+                                display: block;
+                                width: 100%;
+                                overflow-x: inherit;
+                                -webkit-overflow-scrolling: touch;
+                            }
+                            /* review section  css*/
+                            .review-container {
+                                margin-top: 7%;
+                            }
+                            .review-header-title {
+                                font-size: 15px;
+                            }
+                            .review .review-title {
+                                font-size: 13px;
+                            }
+                            .review .body-text {
+                                font-size: 12px;
+                            }
+                            .review .rounded-img {
+                                margin-bottom: 5%;
+                            }
+                            .review .review-img {
+                                padding-left: 0%;
+                            }
+                            .profile-menu .nav-pills .nav-link.active,
+                            .profile-menu .nav-pills .show>.nav-link {
+                                background-color: #d6d1de;
+                                width: 136px;
+                                height: 40px;
+                                text-align: center;
+                                opacity: 0.9;
+                                padding-top: 3%;
+                                border-radius: 0px;
+                                font-size: 10px;
+                                padding-top: 12px;
+                                color: #ff6c00;
+                                border-left: 3px solid #ff6c00;
+                                padding-left: 5%;
+                            }
+                            .review-discription span {
+                                font-size: 16px;
+                            }
+                        }

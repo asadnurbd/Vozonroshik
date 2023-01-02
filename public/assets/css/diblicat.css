@@ -1,0 +1,3669 @@
+/*just bg and body style*/
+
+.center {
+    text-align: center;
+}
+
+#top {
+    margin-top: 20px;
+}
+
+.btn-container {
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.imgupload {
+    color: #1E2832;
+    padding-top: 40px;
+    font-size: 7em;
+}
+
+#namefile {
+    color: black;
+}
+
+h4>strong {
+    color: #ff3f3f
+}
+
+.btn-primary {
+    border-color: #ff3f3f !important;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ff3f3f !important;
+    border-color: #ff3f3f !important;
+}
+
+
+/*these two are set to not display at start*/
+
+.imgupload.ok {
+    display: none;
+    color: green;
+}
+
+.imgupload.stop {
+    display: none;
+    color: red;
+}
+
+
+/*this sets the actual file input to overlay our button*/
+
+#fileup {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: progid: DXImageTransform.Microsoft.Alpha(opacity=0);
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    height: 50px;
+}
+
+
+/*switch between input and not active input*/
+
+#submitbtn {
+    padding: 5px 50px;
+    display: none;
+}
+
+#fakebtn {
+    padding: 5px 40px;
+}
+
+
+/*www.emilianocostanzo.com*/
+
+#sign {
+    color: #1E2832;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-shadow: 0px 0px 0px #1E2832;
+    transition: all.3s;
+}
+
+#sign:hover {
+    color: #1E2832;
+    text-shadow: 0px 0px 5px #1E2832;
+}
+
+
+/*     Header section css*/
+
+.carousel-inner2 {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #fe8831;
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 3%;
+    border-radius: 0px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.sign-up {
+    border-radius: 6px;
+}
+
+.imgBackground {
+    background-image: url('/assets/images/header.jpg');
+    background-size: auto 100%;
+    opacity: 2rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right;
+    height: 730px;
+}
+
+.single-imgBackground {
+    background-image: url('/assets/images/single/Single-cover.jpg');
+    background-size: auto;
+    opacity: 2rem;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 0.4%;
+}
+
+body {
+    background: #ffffff;
+}
+
+.sub-category-header {
+    margin-bottom: 0%;
+}
+
+.sub-cat-img {
+    margin-top: 4%;
+}
+
+.sub-cat-img img {
+    border: 3px solid #ff6d15;
+}
+
+.navbar-brand img {
+    width: 90px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#navbarNav {
+    margin-left: 48%;
+}
+
+.navbar {
+    margin-left: 9%;
+}
+
+.sign_up a {
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+}
+
+.sign_up {
+    background-color: #fe8831;
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 3%;
+}
+
+.sign_in {
+    font-family: 'PT Serif', serif;
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+a {
+    color: #ed7619;
+    font-family: 'PT Serif', serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* .form-control:focus {
+  border-color: #CCC;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+} */
+
+.list-inline {
+    /* margin: 25px 10%; */
+    padding-top: 9px;
+    padding-right: 6.8%;
+}
+
+
+/*    for search area*/
+
+.main-search {
+    margin-top: 20%;
+}
+
+.single-main-search {
+    margin-top: 10%;
+}
+
+.wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    max-width: 600px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.wrapper .input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ffff;
+}
+
+.searchbtn {
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    width: 10%;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.searchbtn button,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.advanced-wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.advanced-searchbtn {
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    width: 10%;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.advanced-searchbtn .fas {
+    position: absolute;
+    top: 60%;
+    left: 180%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.advance-txt {
+    padding-right: 15%;
+    font-size: 14px;
+}
+
+.advanced-searchbtn,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#text_center {
+    padding-left: 50px;
+}
+
+#a_search {
+    margin-left: 2%;
+}
+
+.form-group {
+    margin: 3px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    color: #ffffff
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000000;
+    padding-top: 10px;
+}
+
+
+/*    for advanced search area*/
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.col-auto {
+    color: #ffff;
+    font-size: 19px;
+    margin-left: 6px;
+    font-family: 'PT Serif', serif;
+}
+
+
+/*     Round gallery section css*/
+
+.roundgallery {
+    margin-top: 2.8%;
+}
+
+.pizza_name {
+    font-family: 'PT Serif', serif;
+}
+
+.view {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.view_btn {
+    color: #ff6d00;
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.fa-arrow-left {
+    margin-right: 10px;
+    padding-top: 8px;
+    font-size: 16px;
+    color: #b1b1b1;
+    border-radius: 100%;
+    background: #f4f4f4;
+    width: 30px;
+    height: 30px;
+}
+
+.fa-arrow-right {
+    padding-top: 8px;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 100%;
+    background: #ebebeb;
+    width: 30px;
+    height: 30px;
+}
+
+.bar {
+    border-bottom: 1px solid #ff6d00;
+    margin-top: 2%;
+    margin-left: -2.5%;
+}
+
+.sub-category-bar {
+    border-bottom: 1px solid #ff6d00;
+    margin-left: -19%;
+}
+
+.service {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+.specification {
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+}
+
+
+/* TOP RESTAURANTS IN DHAKA CITY SECTION CSS */
+
+.top_restaurent {
+    margin-top: 4%;
+}
+
+
+/* #top_restaurent {
+  padding-bottom: 1.5%;
+} */
+
+.item-thumb {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    margin-left: 16%;
+}
+
+.arrow {
+    margin-left: 67%;
+}
+
+.section-title {
+    font-family: 'PT Serif', serif;
+    color: #ff6c00;
+    font-weight: bold;
+}
+
+.header_title {
+    padding-bottom: 40px;
+    padding-left: 8.5%;
+}
+
+.active_level {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin-right: 8%;
+    background: #f9b58f;
+}
+
+#active_level {
+    background: #f9b58f;
+}
+
+#active_level span {
+    color: #ff7211;
+}
+
+.bottom-title p {
+    font-family: 'PT Serif', serif;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.item-body {
+    border-bottom: 1px solid #929292;
+    margin-top: 4%;
+}
+
+.top-title {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 23px;
+    padding-top: 4%;
+}
+
+.bottom-title_row2 span {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+/*     NEW & FEATURED RESTAURANTS SECTION CSS */
+
+.pricin-list {
+    margin-bottom: -1.5%;
+}
+
+.new_restaurent {
+    margin-top: 2.6%;
+}
+
+.sm-banner {
+    background: #fd8831;
+}
+
+.float-right span {
+    color: #b1b1b1;
+}
+
+.text-block {
+    position: absolute;
+    right: 20px;
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    font-family: 'PT Serif', serif;
+    margin-top: 1%;
+    height: 30px;
+}
+
+.text-block p {
+    text-align: center;
+}
+
+.review-rate {
+    border-radius: 100%;
+    background: #d8d8d8;
+    width: 35px;
+    height: 35px;
+    margin-right: 8%;
+}
+
+.review-rate span {
+    color: #1f1f1f;
+    font-family: 'PT Serif', serif;
+    margin-left: 5px;
+}
+
+.featured-title {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.item-bar {
+    border-bottom: 2px solid #929292;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 90%;
+}
+
+.property-price span {
+    font-family: 'PT Serif', serif;
+}
+
+
+/* WHAT REVIEWS ARE SAYING */
+
+.restaurent_review {
+    margin-top: -0.5%;
+}
+
+.bg-review {
+    background: #f7f7f7;
+}
+
+.review-address {
+    font-family: 'PT Serif', serif;
+    font-size: 5px;
+    padding-top: 40px;
+}
+
+.review-address span {
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    padding-top: 20px;
+    color: #b1b1b1;
+}
+
+.description p {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #2c2a2a;
+    padding-left: 15px;
+}
+
+.description p span {
+    font-family: 'PT Serif', serif;
+    color: #d61b1b;
+    font-size: 14px;
+}
+
+.name {
+    margin-top: 0%;
+    font-family: 'PT Serif', serif;
+    color: #f84c4c;
+    font-size: 14px;
+}
+
+.checked {
+    color: #ffcf07;
+    font-size: 8px;
+    padding-bottom: 10px;
+}
+
+.px-btn.px-btn-theme {
+    font-family: 'PT Serif', serif;
+    height: 60px;
+    width: 250px;
+    background: #ff7420;
+    border-radius: 0px;
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    box-shadow: -1px -0px 2px 2px #cfcfcf;
+}
+
+
+/* PIZZA DELIVERY IN DHAKA CITY AREA CSS */
+
+.delivery_restaurent {
+    margin-top: 1%;
+    padding-bottom: 3%;
+}
+
+
+/* CHINESE DELIVERY IN DHAKA CITY AREA */
+
+.chinese_delivery_restaurent {
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.dark-image {
+    position: relative;
+    width: 315px;
+}
+
+.restaurent_body .images {
+    width: 315px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.image__overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+
+/* footer css */
+
+#footer_section {
+    background: #000000;
+}
+
+.img {
+    padding-top: 20%;
+}
+
+dt {
+    font-family: 'PT Serif', serif;
+    font-weight: 5;
+    font-size: 12px;
+}
+
+.footer_bar {
+    border-bottom: 1px solid #ffff;
+    width: 1350px;
+    margin-left: 4%;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    margin-top: 35px;
+    padding-left: 2%;
+}
+
+.social-inner_sign_up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    margin-top: 35px;
+    padding-left: 5%;
+}
+
+
+/* Category page css */
+
+.category_roundgallery {
+    margin-top: 3.3%;
+    margin-left: 2.5%;
+}
+
+.category_section {
+    margin-bottom: 6.5%;
+}
+
+.categoy {
+    margin-top: 2.3%;
+    margin-bottom: 5%;
+}
+
+.category-title {
+    font-family: 'PT Serif', serif;
+    color: #ff6c00;
+    font-weight: bold;
+}
+
+.categoty_restaurent {
+    margin-top: 7.5%;
+}
+
+.cateory-search {
+    margin-top: 6%;
+}
+
+.sub-search {
+    margin-top: 6%;
+}
+
+#c_search {
+    margin-top: 2.5%;
+    margin-bottom: 7.5%;
+    margin-left: 16px;
+}
+
+.c-title {
+    padding-left: 35%;
+}
+
+.dark_text {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+.service_name {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    /* margin-top: 15px; */
+}
+
+.property-price tr {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+.c_pizza_name {
+    margin-left: 56px;
+    font-family: 'PT Serif', serif;
+}
+
+.big-btn {
+    padding-top: 9%;
+}
+
+.view_all {
+    margin-right: 5%;
+    margin-top: -1%;
+}
+
+.c_view {
+    margin-top: 3%;
+}
+
+.thai_categoty_restaurent {
+    margin-top: 7.5%;
+    padding-bottom: 6%;
+}
+
+.category_bar {
+    border-bottom: 1px solid #ffff;
+    width: 89.7%;
+    margin-left: 15.5%;
+}
+
+.category-btn .px-btn.px-btn-theme {
+    /* padding-top: 15px; */
+    font-family: 'PT Serif', serif;
+    height: 60px;
+    width: 250px;
+    background: #ff7420;
+    border-radius: 0px;
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    box-shadow: -1px -0px 2px 2px #cfcfcf;
+}
+
+.review-big-btn .px-btn.px-btn-theme {
+    padding-top: 15px;
+    font-family: 'PT Serif', serif;
+    height: 60px;
+    width: 250px;
+    background: #ff7420;
+    border-radius: 0px;
+    background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    box-shadow: -1px -0px 2px 2px #cfcfcf;
+}
+
+
+/* single page  */
+
+.button {
+    position: absolute;
+    right: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 8px;
+    padding-right: 20px;
+    font-family: 'PT Serif', serif;
+    margin-top: 1%;
+    margin-right: 4%;
+    height: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+
+/* .see-button {
+  position: absolute;
+  right: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'PT Serif', serif;
+  margin-right: 15%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+} */
+
+.see-button {
+    position: absolute;
+    right: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'PT Serif', serif;
+    margin-top: 45%;
+    margin-right: 10%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.single-cover img {
+    width: 110%;
+    height: auto;
+}
+
+.restaurant-title {
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+.restaurant p {
+    font-weight: normal;
+}
+
+.comma {
+    color: #000000;
+}
+
+.service-name {
+    font-size: 10px;
+}
+
+.category-title {
+    /* padding-left: 14.5%; */
+    padding-top: 2%;
+}
+
+.category-title p {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+}
+
+#specification {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-weight: normal;
+    /* margin-left: 2.5%; */
+}
+
+#new-specification {
+    font-family: 'PT Serif', serif;
+    color: #554e4e;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.category-title .checked_2 {
+    color: #ff4412;
+}
+
+.category-title span {
+    font-family: 'PT Serif', serif;
+    color: #bbbbbb;
+}
+
+.description {
+    margin-left: -5%;
+    text-align: justify;
+}
+
+.description p {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.description h4 {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.description span {
+    font-family: 'PT Serif', serif;
+    /* padding-left: .5%; */
+    font-size: 14px;
+}
+
+.description i {
+    color: #079953;
+    padding: 1.5%;
+}
+
+.single_bar {
+    border-bottom: 1px solid #ffff;
+    width: 95.7%;
+    margin-left: 11.7%;
+}
+
+#review {
+    margin-top: -1%;
+}
+
+
+/* Popular Dishes section */
+
+.section-title-header2 {
+    font-family: 'PT Serif', serif;
+    margin-top: 13%;
+}
+
+.s-gallery {
+    padding-left: 17%;
+}
+
+.gallery_container {
+    margin-left: 4%;
+}
+
+.p_pizza_name {
+    margin-left: 4px;
+    font-size: 13px;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* Menu section */
+
+.singledowre {
+    background-color: transparent;
+    min-height: 100%;
+    padding: 40px 14px;
+    background-image: url(img/shapes.png) !important;
+    background-size: 17%;
+}
+
+.singledowrediv {
+    display: table;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.singleinfos {
+    background: white;
+    padding: 0px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.singleinfos .singleinfostabs {
+    width: 100%;
+}
+
+.singleinfos .singleinfostabs>ul {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.singleinfos .singleinfostabs>ul>li {
+    background: white;
+    border-radius: 3px;
+    padding: 12px 0;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.singleinfos .singleinfostabs .nav-pills>li>a {
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 10px;
+    text-align: center;
+    background: transparent;
+    white-space: nowrap !important;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #ffff;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #ffff;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffff;
+}
+
+.searchbar {
+    margin-left: 60%;
+}
+
+.search_input {
+    font-family: 'PT Serif', serif;
+    border: 1px solid #ff7b19;
+    border-radius: 10px;
+    height: 35px;
+    width: 250px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.search_icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 27.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+.nav-link {
+    font-family: 'PT Serif', serif;
+    /* font-size: 13px; */
+    color: #5e5e5e;
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgb(231 152 152 / 10%);
+    background-color: #fe8831;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+.nav-item2 {
+    padding-left: 63px;
+}
+
+.menu_container {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.sm_bar {
+    margin-left: 7%;
+    border-bottom: 1px solid #a6a6a6;
+    margin-top: 4%;
+}
+
+.discription-menu-title {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+}
+
+.discription-menu-text {
+    font-family: 'PT Serif', serif;
+    color: #6d6d6d;
+    font-size: 13px;
+}
+
+.discription-menu i {
+    font-size: 13px;
+    color: #ff7420;
+}
+
+.pricin-list-title {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+#menu ul li a {
+    color: #D3D3D3;
+}
+
+#menu ul .active a {
+    color: #ff7420;
+}
+
+.pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.load {
+    display: none
+}
+
+.loaddata {
+    display: none
+}
+
+
+/* What People Are Saying */
+
+.rating_part {
+    font-family: 'PT Serif', serif;
+    padding-left: 20%;
+}
+
+.rating_part h6 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rating_part span {
+    font-size: 14px;
+}
+
+.rating_part i {
+    font-size: 14px;
+    color: #ff7420;
+}
+
+.right-bar {
+    border-right: 2px solid #cccccc;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.right-bar2 {
+    border-right: 2px solid #cccccc;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 6px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.text-middle {
+    padding-left: 10px;
+}
+
+.progress-bar {
+    color: red;
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    border: .5px solid #ff7420;
+    background-color: rgb(248, 247, 247);
+    border-radius: .1rem;
+}
+
+.review-name {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    width: 400px;
+}
+
+.review-discription i {
+    font-size: 16px;
+    color: #ff7420;
+}
+
+.review-discription .date {
+    font-size: 13px;
+    color: #000000;
+}
+
+.review-discription .category {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    color: #ff7420;
+}
+
+.review-discription span {
+    font-family: 'PT Serif', serif;
+    color: #ff7420;
+    font-size: 23px;
+}
+
+.review-discription .category span {
+    font-family: 'PT Serif', serif;
+    color: #ff7420;
+    font-size: 15px;
+}
+
+.review-discription .text {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.review-discription .icon .fa-thumbs-up {
+    font-size: 12px;
+    color: #0082bc;
+}
+
+.review-discription .icon .fa-thumbs-down {
+    font-size: 12px;
+}
+
+.review-discription .icon .fa-comment-alt {
+    font-size: 12px;
+}
+
+.review-discription .icon span {
+    font-size: 12px;
+    color: #000000;
+}
+
+.r_sm-bar {
+    margin-left: 7%;
+    border-bottom: 2px solid #ff7420;
+    margin-top: 1%;
+}
+
+.review-btn {
+    margin-top: 10%;
+    margin-bottom: 9%;
+}
+
+.sub-review-btn {
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.sub-category-body {
+    margin-top: -0.9%;
+}
+
+
+/* sidebar */
+
+.side_bar {
+    margin-top: 1.5%;
+    margin-left: 37px;
+}
+
+.s_px-btn {
+    font-family: 'PT Serif', serif;
+    height: 42px;
+    width: 289px;
+    background: #ff7420;
+    border-radius: .1rem;
+    margin-bottom: 12px;
+    padding-right: 8%;
+    color: #ffffff;
+}
+
+.delivery-button {
+    margin-right: 20%;
+}
+
+.fa-user-lock {
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.card-text {
+    font-family: 'PT Serif', serif;
+    color: #ff7420;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.card-border {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: .5rem;
+}
+
+.home-box {
+    width: 18rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #ff7420;
+    border-radius: 0rem;
+}
+
+
+/* sign-up page */
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.error_message {
+    margin-left: 22%;
+}
+
+.bg-or {
+    background: #ffff;
+    font-family: 'PT Serif', serif;
+    color: #a6a6a6;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.property-item {
+    padding-left: 2%;
+    padding-bottom: 0.5%;
+}
+
+.signup-logo {
+    margin-left: 38%;
+    width: 120px;
+}
+
+.signup-logo img {
+    margin-left: 38%;
+    width: 90px;
+    margin-top: 12px;
+}
+
+.sign-up a {
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+    padding-bottom: 3%;
+}
+
+.sign-in a {
+    color: #c5c5c5;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'PT Serif', serif;
+}
+
+.or {
+    color: #c5c5c5;
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* form css section  */
+
+.form-1 {
+    width: 60%;
+    margin: 60px auto;
+    /* background: #efefef; */
+    padding: 6px 10px 8px 11px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+}
+
+.label-txt {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    position: absolute;
+    top: -1.6em;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(120, 120, 120);
+    transition: ease .3s;
+    padding-left: 2px;
+}
+
+.input {
+    font-family: 'PT Serif', serif;
+    width: 100%;
+    padding-top: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* color: #0000; */
+    font-size: 15px;
+}
+
+.line-box {
+    position: relative;
+    width: 100%;
+    height: 1.8px;
+    background: #c6c6c6;
+    margin-left: 2px;
+}
+
+.line-box2 {
+    position: relative;
+    width: 123%;
+    height: 1.2px;
+    background: #BCBCBC;
+}
+
+.line-box3 {
+    position: relative;
+    width: 95%;
+    height: 1.2px;
+    background: #BCBCBC;
+    margin-left: 15%;
+}
+
+.line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #8BC34A;
+    transition: ease .6s;
+}
+
+.input:focus+.line-box .line {
+    width: 100%;
+}
+
+.label-active {
+    top: -3em;
+}
+
+.fa-eye {
+    color: #dedede;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 380px;
+}
+
+.txt p {
+    font-family: 'PT Serif', serif;
+    color: #7a7a7a;
+    padding-left: 1px;
+}
+
+.form-check {
+    font-family: 'PT Serif', serif;
+    color: #444141;
+}
+
+.sign-up-btn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 428px;
+    height: 50px;
+    background: #ff6c20;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-bottom: 35px;
+    padding-right: 20px;
+    margin-top: 15px;
+    background-image: repeating-linear-gradient(#f66d30, #ff5d20 50%, #f66d30);
+}
+
+.or-inline {
+    font-family: 'PT Serif', serif;
+    color: #b4b4b4;
+    padding-left: 210%;
+}
+
+.or-inline2 {
+    font-family: 'PT Serif', serif;
+    color: #b4b4b4;
+    padding-left: 210%;
+}
+
+.sign-up-fbtn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 428px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    background-image: repeating-linear-gradient(#3652ac, #3061b5 50%, #3652ac);
+}
+
+.sign-up-gbtn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 428px;
+    height: 50px;
+    background: #34a953;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-bottom: 10px;
+    background-image: repeating-linear-gradient(#34a753, #34b353 50%, #34a753);
+}
+
+.text-danger {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+}
+
+
+/* sign in css section  */
+
+.form-2 {
+    width: 100%;
+    margin: 20px auto;
+    padding: 6px 10px 8px 11px;
+    /* background: #efefef; */
+    text-align: center;
+}
+
+.modal {
+    padding-top: 2%;
+}
+
+.modal-title {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+.input-form {
+    border-radius: 0rem;
+    width: 400px;
+    height: 44px;
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 25px;
+    border: 2px solid #dedede;
+}
+
+.modal-content {
+    border-radius: .6rem;
+    height: 600px;
+}
+
+.text-right {
+    float: right !important;
+    padding-right: 6%;
+    color: #5f9fc3;
+}
+
+.sign-in-btn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 400px;
+    height: 45px;
+    background: #ff6c20;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    background-image: repeating-linear-gradient(#f66d30, #ff5d20 50%, #f66d30);
+}
+
+.sign-in-fbtn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    background: #3652ac;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    background-image: repeating-linear-gradient(#3652ac, #3061b5 50%, #3652ac);
+}
+
+.sign-in-ebtn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    background-image: repeating-linear-gradient(#ea4636, #ea4636 50%, #ea4636);
+}
+
+.email-logo {
+    padding-left: 10%;
+}
+
+.sign-in-txt {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    font-size: 14px;
+    color: #b5b5b5;
+    width: 180px;
+    height: 60px;
+}
+
+.sign-in-txt span {
+    padding-top: 10px;
+}
+
+.create {
+    margin-top: 10%;
+    color: #ea4636;
+}
+
+.sign-in-gbtn {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    background-image: repeating-linear-gradient(#34a753, #34b353 50%, #34a753);
+}
+
+
+/* sub category page css section */
+
+.discription-category {
+    padding-top: 6px;
+}
+
+.discription-category i {
+    color: #ff611c;
+    font-size: 15px;
+}
+
+.discription-category h3 {
+    font-weight: bold;
+}
+
+.discription-category span {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+.discription-category-text p {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+.btn-link {
+    margin-top: 13px;
+    border-radius: 0px;
+    font-family: 'PT Serif', serif;
+    color: #393939;
+    width: 180px;
+    height: 40px;
+    background-image: repeating-linear-gradient(#ebebeb, #ebebeb 50%, #ebebeb);
+}
+
+.form-control2:focus {
+    border-color: #CCC;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.home-box2 h6 {
+    font-family: 'PT Serif', serif;
+    color: #ff7420;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.search-area .form-control2 {
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #f5f5f5;
+    border: 2px solid #f5f5f5;
+    height: 45px;
+    width: 260px;
+    padding-bottom: 8px;
+}
+
+.search-area ::placeholder {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.search-area .form-control2 {
+    padding-left: 1rem;
+}
+
+.home-box2 {
+    width: 18rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #f5f5f5;
+    border-radius: 0rem;
+}
+
+.table-borderless td {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    color: #8b8585;
+}
+
+.table-borderless .active {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    color: #ff7420;
+}
+
+.right-menu1 {
+    position: absolute;
+    right: 0;
+    top: 161%;
+    height: 65px;
+    width: 70px;
+    background-color: #ff7420;
+    color: #FFF;
+    box-shadow: -5px 0px 0px 0px #d9d9d9;
+}
+
+.right-menu2 {
+    position: absolute;
+    right: 0;
+    top: 178%;
+    height: 65px;
+    width: 70px;
+    background-color: #ff7420;
+    color: #FFF;
+    box-shadow: -5px 0px 0px 0px #d9d9d9;
+}
+
+.right-menu3 {
+    position: absolute;
+    right: 0;
+    top: 195%;
+    height: 65px;
+    width: 70px;
+    background-color: #ff7420;
+    color: #FFF;
+    box-shadow: -5px 0px 0px 0px #d9d9d9;
+}
+
+.sub-category {
+    margin-left: 8.2%;
+}
+
+.sub_category_bar {
+    border-bottom: 1px solid #ffff;
+    width: 94.5%;
+    margin-left: 13.5%;
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.footer-img {
+    padding-top: 35px;
+}
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+/* home page for phone device */
+
+@media only screen and (min-width: 1600px) {
+    #text {
+        padding-left: 26px;
+        font-size: 15px;
+    }
+    .nav-item {
+        font-size: 1px;
+    }
+    .sign-up-img img {
+        margin-left: 20%;
+    }
+    .sign-up-btn {
+        width: 565px;
+    }
+    .sign-up-fbtn {
+        width: 565px;
+    }
+    .sign-up-gbtn {
+        width: 565px;
+    }
+    .or-inline {
+        padding-left: 150%;
+    }
+    .fa-eye {
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    .p_pizza_name {
+        margin-left: 4px;
+        font-size: 12px;
+        width: 200px;
+        font-family: 'PT Serif', serif;
+    }
+    .nav-item {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .justify-content-center {
+        margin-left: 5%;
+    }
+    #navbarNav {
+        margin-left: 34%;
+    }
+    .form-control {
+        font-size: 13px;
+        width: 360px;
+    }
+    .navbar-brand img {
+        width: 100px;
+        padding-right: 10px;
+    }
+    .has-search .form-control-feedback {
+        font-size: 13px;
+    }
+    .s_card2 {
+        width: 190px;
+        border-radius: 15px;
+        background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    }
+    .main-search {
+        padding-left: 5%;
+    }
+    .list-inline {
+        padding-left: 10%;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 13px;
+        margin-left: 2px;
+    }
+    .fas {
+        font-size: 12px;
+    }
+    /* home page */
+    .roundgallery {
+        margin-top: 4.5%;
+    }
+    .gallery-img img {
+        width: 150px;
+        height: 150px;
+    }
+    .top_restaurent {
+        margin-top: 6%;
+    }
+    .new_restaurent {
+        margin-top: 8.6%;
+    }
+    .delivery_restaurent {
+        margin-top: 7.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 8%;
+        margin-bottom: 9%;
+    }
+    .restaurent_review {
+        margin-top: 7.2%;
+    }
+    .name {
+        padding-left: 30%;
+    }
+    .arrow {
+        margin-left: 6%;
+    }
+    /* category page */
+    .category_roundgallery {
+        margin-top: 6%;
+    }
+    .overlay {
+        height: 57%;
+        width: 89%;
+    }
+    .home-overlay {
+        height: 56%;
+        width: 89%;
+    }
+    .dark-img span {
+        font-size: 19px;
+    }
+    /* single page */
+    .restaurant-title {
+        font-size: 34px;
+    }
+    .see-button {
+        margin-top: 20.5%;
+        height: 40px;
+    }
+    .line-width {
+        width: 150%;
+    }
+    .fa-eye {
+        color: rgb(222, 222, 222);
+        font-size: 15px;
+        margin-top: 8px;
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 140px;
+        height: 140px;
+    }
+    .roundgallery .item {
+        padding-bottom: 40px;
+    }
+    .justify-content-center {
+        margin-left: 0%;
+    }
+    #navbarNav {
+        margin-left: 40%;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        margin-right: 5%;
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -5px;
+    }
+    .main-search {
+        margin-top: 30%;
+    }
+    .section-title {
+        font-size: 19px;
+    }
+    .top_restaurent {
+        margin-top: 9%;
+    }
+    .arrow {
+        margin-left: 6%;
+    }
+    .new_restaurent {
+        margin-top: 9.6%;
+    }
+    .roundgallery {
+        margin-top: 4.5%;
+    }
+    .restaurent_review {
+        margin-top: 9.6%;
+    }
+    .name {
+        padding-left: 25%;
+    }
+    .delivery_restaurent {
+        margin-top: 9.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 9.7%;
+        margin-bottom: 10%;
+    }
+    #footer_section {
+        background: #000000;
+        height: 400px;
+    }
+    /* category page */
+    .category_roundgallery {
+        margin-top: 6%;
+        margin-bottom: 11%;
+    }
+    .thai_categoty_restaurent {
+        padding-bottom: 12%;
+    }
+    .overlay {
+        height: 60%;
+        width: 90%;
+    }
+    .home-overlay {
+        height: 61%;
+        width: 90%;
+    }
+    .dark-img span {
+        font-size: 19px;
+    }
+    .view_all {
+        padding-bottom: 5%;
+    }
+    .c_view {
+        padding-bottom: 6%;
+        margin-bottom: 5%;
+    }
+    /* sub-category page */
+    .view-details {
+        color: #000;
+        text-decoration: none !important;
+    }
+    .right-menu1 img {
+        width: 30px;
+        height: 30px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .right-menu2 img {
+        width: 30px;
+        height: 30px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .right-menu3 img {
+        width: 30px;
+        height: 30px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    /* single page */
+    .restaurant {
+        margin-left: 3px;
+    }
+    .restaurant-title {
+        margin-left: 3%;
+        font-size: 22px;
+    }
+    #specification {
+        margin-left: 2.7%;
+    }
+    .button {
+        height: 35px;
+        font-size: 12px;
+    }
+    .see-button {
+        margin-top: 20%;
+        height: 35px;
+        font-size: 12px;
+    }
+    .restaurent_body2 img {
+        width: 120px;
+        height: 120px;
+    }
+    .p_pizza_name {
+        margin-left: 16px;
+    }
+    .search_input {
+        height: 35px;
+        width: 200px;
+        font-size: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        /* padding-bottom: 10px; */
+    }
+    .search_icon {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 20.375rem;
+        padding-top: 7px;
+        height: 10.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+    }
+    .rating_part {
+        padding-left: 2%;
+    }
+    /* sign-up page */
+    .sign-up-img img {
+        margin-left: 20%;
+    }
+    .modal-content {
+        height: 750px;
+    }
+    .sign-in-ebtn {
+        margin-right: 26px;
+    }
+    .sign-in-txt {
+        margin-right: 20px;
+    }
+    .line-width {
+        width: 170%;
+    }
+    .fa-eye {
+        color: rgb(222, 222, 222);
+        font-size: 15px;
+        margin-top: 8px;
+        width: 220px;
+    }
+    .single-cover {
+        margin-top: 11%;
+    }
+    .line-box2 {
+        position: relative;
+        width: 0%;
+        height: 1.2px;
+        background: #BCBCBC;
+    }
+    .brand-logo-light {
+        width: 80px;
+        height: 40px;
+    }
+    .app-logo-light {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 120px;
+        height: 120px;
+    }
+    .roundgallery .item {
+        padding-bottom: 30px;
+    }
+    .img {
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .s_card {
+        width: 400px;
+        height: 55px;
+    }
+    .form-control {
+        height: 50px;
+        font-size: 13px;
+        width: 280px;
+    }
+    .overlay {
+        height: 53%;
+        width: 87%;
+    }
+    .dark-img span {
+        font-size: 16px;
+    }
+    .justify-content-center {
+        margin-left: 13%;
+    }
+    .search {
+        margin-left: 0px;
+    }
+    .wrapper {
+        margin-top: 7%;
+    }
+    .navbar-brand img {
+        width: 100px;
+        padding-right: 10px;
+    }
+    .navbar-toggler {
+        padding: .20rem .60rem;
+        font-size: 1.0rem;
+    }
+    .main-search {
+        margin-top: 20%;
+    }
+    .has-search .form-control-feedback {
+        /* padding-top: 5px; */
+        font-size: 13px;
+    }
+    .s_card2 {
+        width: 170px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        margin-right: 20%;
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -5px;
+    }
+    .roundgallery {
+        margin-top: 4.5%;
+    }
+    .gallery-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .section-title {
+        font-size: 15px;
+        margin-right: 0%;
+    }
+    .restaurent_body img {
+        width: 230px;
+        height: 100px;
+    }
+    .arrow {
+        width: 165px;
+    }
+    .fa-arrow-left {
+        font-size: 13px;
+        width: 25px;
+        height: 27px;
+    }
+    .fa-arrow-right {
+        font-size: 13px;
+        width: 25px;
+        height: 27px;
+    }
+    .review-rate {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .active_level {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .featured-title {
+        font-size: 12px;
+    }
+    .property-price p {
+        font-size: 13px;
+    }
+    .top-title {
+        font-size: 15px;
+    }
+    .p-tag {
+        font-size: 12px;
+    }
+    .top_restaurent {
+        margin-top: 10%;
+    }
+    .restaurent_review {
+        margin-top: 10.7%;
+    }
+    .new_restaurent {
+        margin-top: 10.6%;
+    }
+    .review-address {
+        padding-left: 10px;
+    }
+    .name {
+        padding-left: 20%;
+    }
+    .delivery_restaurent {
+        margin-top: 10.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 10.6%;
+        margin-bottom: 6%;
+    }
+    .navbar-toggler {
+        padding: .20rem .60rem;
+        font-size: 1.0rem;
+    }
+    #footer_section {
+        background: #000000;
+        height: 800px;
+    }
+    /* category page */
+    .category_roundgallery {
+        margin-top: 7%;
+        margin-bottom: 12%;
+    }
+    .c_pizza_name {
+        margin-left: 25px;
+    }
+    .dark-img span {
+        color: #fff;
+    }
+    .category_bar {
+        margin-left: 10.5%;
+    }
+    .gallery {
+        margin-left: 10px;
+    }
+    .overlay {
+        height: 53%;
+        width: 87%;
+    }
+    .home-overlay {
+        height: 54%;
+        width: 87%;
+    }
+    .dark-img span {
+        font-size: 16px;
+    }
+    .c_view {
+        padding-bottom: 6%;
+    }
+    /* sub-category page */
+    .home-box2 {
+        margin-left: 36%;
+        margin-bottom: 10%;
+    }
+    .review-btn {
+        margin-left: 10%;
+    }
+    .discription-category h3 {
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    /* single page */
+    .button {
+        height: 35px;
+        font-size: 12px;
+    }
+    .see-button {
+        margin-top: 18%;
+        height: 35px;
+        font-size: 12px;
+    }
+    .Popular-title {
+        font-size: 15px;
+        margin-right: 0%;
+        margin-left: 23%;
+    }
+    .search_input {
+        height: 35px;
+        width: 180px;
+        font-size: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        /* padding-bottom: 10px; */
+    }
+    .side_bar {
+        margin-left: 29%;
+    }
+    .responsive_bar {
+        border-bottom: 1px solid #ff6d00;
+        margin-top: 10%;
+    }
+    /* sign up page */
+    .error_message {
+        margin-left: 15%;
+    }
+    .fa-eye {
+        width: 340px;
+    }
+    .sign-up-btn {
+        width: 400px;
+    }
+    .sign-up-fbtn {
+        width: 400px;
+    }
+    .sign-up-gbtn {
+        width: 400px;
+    }
+    .modal-content {
+        height: 700px;
+    }
+    .sign-in-ebtn {
+        margin-right: 26px;
+    }
+    .line-width {
+        width: 105%;
+    }
+    .single-cover {
+        margin-top: 16%;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .s_card2 {
+        width: 160px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        margin-right: 25%;
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -6px;
+    }
+    /* category page */
+    .gallery {
+        margin-left: 10px;
+    }
+    .home-box2 {
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .justify-content-center {
+        margin-left: 10%;
+    }
+    .navbar-brand img {
+        width: 80px;
+        padding-right: 10px;
+    }
+    .has-search .form-control-feedback {
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    .s_card2 {
+        width: 160px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        /* margin-left: 16px; */
+    }
+    .px-btn.px-btn-theme {
+        font-family: 'PT Serif', serif;
+        height: 55px;
+        width: 250px;
+        background: #ff7420;
+        border-radius: 0px;
+        background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+        box-shadow: -1px 0px 2px 2px #cfcfcf;
+    }
+    .advanced_icon {
+        margin-left: -6px;
+    }
+    .main-search {
+        margin-top: 20%;
+        padding-left: 5%;
+    }
+    .navbar-light .navbar-toggler-icon {
+        width: 15px;
+    }
+    .navbar-toggler {
+        padding: .20rem .60rem;
+        font-size: 1.0rem
+    }
+    .sign_up {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .sign_in {
+        width: 120px;
+        height: 40px;
+        padding-left: 15%;
+        font-size: 14px;
+    }
+    .navbar {
+        margin-left: 0px;
+    }
+    .list-inline {
+        padding-left: 0%;
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: #fe8831;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        opacity: 0.9;
+        padding-top: 3%;
+        border-radius: 0px;
+        font-size: 13px;
+        padding-top: 10px;
+        padding-right: 13%;
+    }
+    .nav-pills .nav-link {
+        border-radius: .25rem;
+        font-size: 12px;
+        padding-right: 0px;
+    }
+    .btn {
+        font-family: 'PT Serif', serif;
+        font-size: 16px;
+    }
+    .s_card2 {
+        width: 160px;
+        border-radius: 15px;
+        background-image: repeating-linear-gradient(#ff6d00, #ff8500, #ff6d00);
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 12px;
+        margin-left: 2px;
+    }
+    .fas {
+        font-size: 12px;
+    }
+    /* home page */
+    .roundgallery {
+        margin-top: 4.5%;
+    }
+    .gallery-img img {
+        width: 90px;
+        height: 90px;
+    }
+    .pizza_name {
+        /* margin-left: 15px; */
+        font-size: 13px;
+    }
+    .arrow {
+        width: 161px;
+    }
+    .name {
+        margin-top: -8%;
+        font-family: 'PT Serif', serif;
+        color: #f84c4c;
+        font-size: 14px;
+    }
+    .top_restaurent {
+        margin-top: 11%;
+    }
+    .new_restaurent {
+        margin-top: 11.6%;
+    }
+    .review-address {
+        padding-left: 10px;
+    }
+    .restaurent_review {
+        margin-top: 12.6%;
+    }
+    .delivery_restaurent {
+        margin-top: 11.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 11.2%;
+        margin-bottom: 11%;
+    }
+    .dark-img::before {
+        content: '\A';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+    }
+    #footer_section {
+        background: #000000;
+        height: 800px;
+    }
+    .text-block {
+        font-size: 12px;
+    }
+    /* category page */
+    .category_roundgallery {
+        margin-top: 7%;
+        margin-bottom: 15%;
+    }
+    .c_pizza_name {
+        margin-left: 15px;
+        font-size: 13px;
+    }
+    .gallery {
+        margin-left: 30px;
+    }
+    .overlay {
+        height: 54%;
+        width: 87%;
+    }
+    .home-overlay {
+        height: 53%;
+        width: 87%;
+    }
+    .dark-img span {
+        font-size: 14px;
+    }
+    .service_name {
+        font-family: 'PT Serif', serif;
+        font-size: 12px;
+    }
+    .category-btn .px-btn.px-btn-theme {
+        height: 50px;
+        width: 200px;
+        margin-bottom: 7%;
+    }
+    /* sub-category page */
+    .home-box2 {
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+    .review-btn {
+        padding-right: 2%;
+        float: left;
+    }
+    .right-menu1 {
+        top: 150%;
+        height: 45px;
+        width: 40px;
+    }
+    .right-menu2 {
+        top: 160%;
+        height: 45px;
+        width: 40px;
+    }
+    .right-menu3 {
+        top: 170%;
+        height: 45px;
+        width: 40px;
+    }
+    /* single page */
+    #specification {
+        font-size: 13px;
+    }
+    .description span {
+        font-size: 12px;
+    }
+    .button {
+        height: 30px;
+        font-size: 10px;
+    }
+    .see-button {
+        margin-top: 18%;
+        height: 30px;
+        font-size: 10px;
+    }
+    .restaurent_body2 img {
+        width: 100px;
+        height: 100px;
+    }
+    .p_pizza_name {
+        width: 100px;
+        margin-left: 12px;
+    }
+    .Popular-title {
+        font-size: 15px;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .side_bar {
+        margin-left: 24%;
+    }
+    .search_input {
+        height: 35px;
+        width: 150px;
+        font-size: 10px;
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        /* padding-bottom: 10px; */
+    }
+    .search_icon {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 15.375rem;
+        padding-top: 7px;
+        height: 10.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+    }
+    .responsive_bar {
+        border-bottom: 1px solid #ff6d00;
+        margin-top: 10%;
+    }
+    /* sign up page */
+    .error_message {
+        margin-left: 21%;
+        font-size: 10px;
+    }
+    .fa-eye {
+        width: 280px;
+    }
+    .signup-logo img {
+        margin-left: 0px;
+        width: 80px;
+        margin-top: 12px;
+    }
+    .sign-up a {
+        font-size: 15px;
+    }
+    .sign-in a {
+        font-size: 16px;
+    }
+    .sign-up-btn {
+        font-size: 14px;
+        width: 330px;
+    }
+    .sign-up-fbtn {
+        font-size: 14px;
+        width: 330px;
+    }
+    .sign-up-gbtn {
+        font-size: 14px;
+        width: 330px;
+    }
+    .txt p {
+        font-size: 12px;
+    }
+    .form-check {
+        font-size: 12px;
+    }
+    .label-txt {
+        font-size: 10px;
+    }
+    .input {
+        font-size: 8px;
+    }
+    .list-register {
+        padding-left: 20%;
+    }
+    .success-message {
+        font-size: 12px;
+    }
+    /* footer page */
+    .brand-logo-light {
+        width: 80px;
+        height: 40px;
+    }
+    .app-logo-light {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:519px) {
+    .overlay {
+        height: 50%;
+        width: 87%;
+    }
+    .dark-img span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 122px;
+        height: 122px;
+    }
+    .roundgallery .item {
+        padding-bottom: 15px;
+    }
+    .justify-content-center {
+        margin-left: 6%;
+    }
+    .navbar-brand img {
+        width: 70px;
+        padding-right: 10px;
+    }
+    .has-search .form-control-feedback {
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    .advanced-wrapper {
+        max-width: 180px;
+    }
+    .advance-txt {
+        padding-right: 15%;
+        font-size: 12px;
+    }
+    .searchbtn .fas {
+        font-size: 15px;
+    }
+    .s_card2 {
+        width: 160px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        /* margin-right: 40%; */
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -6px;
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    .sign_up {
+        width: 110px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .sign_in {
+        width: 110px;
+        height: 40px;
+        padding-left: 15%;
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    /* home page */
+    .arrow {
+        width: 160px;
+        padding-right: 30%;
+    }
+    .roundgallery {
+        margin-top: 4.5%;
+    }
+    .pizza_name {
+        font-size: 12px;
+    }
+    .top_restaurent {
+        margin-top: 11%;
+    }
+    .new_restaurent {
+        margin-top: 11.6%;
+    }
+    .review-address {
+        padding-left: 10px;
+    }
+    .restaurent_review {
+        margin-top: 12.6%;
+    }
+    .delivery_restaurent {
+        margin-top: 11.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 11.2%;
+        margin-bottom: 11%;
+    }
+    #footer_section {
+        background: #000000;
+        height: 800px;
+    }
+    .brand-logo-light {
+        width: 60px;
+        height: 40px;
+    }
+    .app-logo-light {
+        width: 150px;
+    }
+    .rights span {
+        font-size: 9px;
+    }
+    /* category page */
+    .gallery {
+        margin-left: 25px;
+    }
+    .overlay {
+        height: 45%;
+        width: 87%;
+    }
+    .home-overlay {
+        height: 46%;
+        width: 86%;
+    }
+    .dark-img span {
+        font-size: 14px;
+    }
+    .view_all {
+        padding-bottom: 10%;
+    }
+    .category-title {
+        font-size: 16px;
+    }
+    .c_view {
+        font-size: 12px;
+    }
+    /* sub-category page */
+    .home-box2 {
+        width: 15rem;
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+    .home-box2 iframe {
+        width: 220px;
+    }
+    .search-area .form-control2 {
+        height: 45px;
+        width: 220px;
+    }
+    .table-borderless td {
+        font-size: 10px;
+    }
+    .review-btn {
+        float: left;
+    }
+    .right-menu1 {
+        top: 130%;
+        height: 40px;
+        width: 35px;
+    }
+    .right-menu3 {
+        top: 120%;
+        height: 40px;
+        width: 35px;
+    }
+    .right-menu2 {
+        top: 140%;
+        height: 40px;
+        width: 35px;
+    }
+    .right-menu3 img {
+        width: 20px;
+        height: 20px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .right-menu2 img {
+        width: 20px;
+        height: 20px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    .right-menu1 img {
+        width: 20px;
+        height: 20px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+    /* single page */
+    #specification {
+        font-size: 12px;
+    }
+    .p_gallery {
+        margin-left: 0px;
+    }
+    .side_bar {
+        margin-left: 15%;
+    }
+    .header_title {
+        padding-left: 8.5%;
+    }
+    /* sign up page */
+    .fa-eye {
+        width: 200px;
+    }
+    .sign-up-btn {
+        width: 300px;
+    }
+    .sign-up-fbtn {
+        width: 300px;
+    }
+    .sign-up-gbtn {
+        width: 300px;
+    }
+    .sign-in-btn {
+        width: 300px;
+    }
+    .input-form {
+        width: 300px;
+    }
+    .text-right {
+        float: right !important;
+        padding-right: 15%;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 487.98px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 165px;
+        height: 165px;
+    }
+    .roundgallery .item {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 150px;
+        height: 150px;
+    }
+    .roundgallery .item {
+        padding-bottom: 10px;
+    }
+    .justify-content-center {
+        margin-left: 6%;
+    }
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        max-width: 510px;
+        width: 100%;
+        padding: 3px;
+    }
+    .s_card2 {
+        width: 140px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        margin-right: 30%;
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -6px;
+    }
+    .btn-s {
+        margin-right: 10%;
+        font-size: 9px;
+    }
+    .navbar-brand img {
+        width: 70px;
+        padding-right: 10px;
+    }
+    .has-search .form-control-feedback {
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    .sign_up {
+        width: 110px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .sign_in {
+        width: 110px;
+        height: 40px;
+        padding-left: 15%;
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    /* home page */
+    .section-title {
+        font-size: 12px;
+    }
+    .restaurant-title {
+        font-size: 15px;
+    }
+    .arrow {
+        width: 210px;
+        padding-right: 150%;
+    }
+    .title {
+        margin-left: 1%;
+    }
+    .top_restaurent {
+        margin-top: 11%;
+    }
+    .new_restaurent {
+        margin-top: 11.6%;
+    }
+    .review-address {
+        padding-left: 10px;
+    }
+    .restaurent_review {
+        margin-top: 12.6%;
+    }
+    .delivery_restaurent {
+        margin-top: 11.5%;
+    }
+    .chinese_delivery_restaurent {
+        margin-top: 11.2%;
+        margin-bottom: 11%;
+    }
+    #footer_section {
+        background: #000000;
+        height: 800px;
+    }
+    .text-block {
+        font-size: 9px;
+        width: 80px;
+    }
+    /* category page */
+    .gallery {
+        margin-left: 20px;
+    }
+    .overlay {
+        height: 42%;
+        width: 85%;
+    }
+    .home-overlay {
+        height: 40%;
+        width: 85%;
+    }
+    .dark-img span {
+        font-size: 13px;
+    }
+    /* single page */
+    .p_gallery {
+        margin-left: 0px;
+    }
+    .Popular-title {
+        font-size: 15px;
+        margin-right: 0%;
+        margin-left: 20%;
+    }
+    .title {
+        margin-left: 7%;
+    }
+    /* sign up page */
+    .sign-up-btn {
+        width: 250px;
+    }
+    .sign-up-fbtn {
+        width: 250px;
+    }
+    .sign-up-gbtn {
+        width: 250px;
+    }
+    .line-width {
+        width: 109%;
+    }
+    /* sub category page */
+    .home-box2 {
+        width: 15rem;
+        /* margin-left: 0%; */
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    /* Home  page css  */
+    .roundgallery img {
+        width: 140px;
+        height: 140px;
+    }
+    .roundgallery .item {
+        padding-bottom: 10px;
+    }
+    /*    heder section responsive*/
+    .justify-content-center {
+        margin-left: 3%;
+    }
+    .wrapper .input {
+        padding: 13px 25px;
+    }
+    .advanced-wrapper {
+        max-width: 160px;
+    }
+    .advanced-searchbtn .fas {
+        left: 120%;
+        font-size: 12px;
+    }
+    .advance-txt {
+        padding-right: 15%;
+        font-size: 12px;
+    }
+    #c_search {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        margin-right: 30%;
+        /* margin-left: 16px; */
+    }
+    .advanced_icon {
+        margin-left: -6px;
+    }
+    .btn-s {
+        margin-right: 10%;
+        font-size: 9px;
+    }
+    .main-search {
+        margin-top: 35%;
+        padding-left: 5%;
+    }
+    .has-search .form-control-feedback {
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    .s_card2 {
+        width: 140px;
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    .gallery {
+        margin-left: 0px;
+    }
+    .arrow {
+        width: 160px;
+        padding-right: 150%;
+    }
+    .overlay {
+        height: 37%;
+        width: 83%;
+    }
+    .home-overlay {
+        height: 35%;
+        width: 83%;
+    }
+    .dark-img span {
+        font-size: 13px;
+    }
+    /* single page  */
+    .s_px-btn {
+        width: 239px;
+    }
+    .home-box2 {
+        width: 15rem;
+        margin-left: 70px;
+        margin-bottom: 10%;
+    }
+    .home-box {
+        width: 15rem;
+    }
+    .home-box iframe {
+        width: 14rem;
+    }
+    .search_input {
+        width: 120px;
+        font-size: 8px;
+    }
+    .search_icon {
+        width: 13.375rem;
+    }
+    .rating_part span {
+        font-size: 10px;
+    }
+    .review-btn {
+        margin-left: 10%;
+    }
+    .px-btn.px-btn-theme {
+        width: 180px;
+    }
+    .see-button {
+        margin-top: 18%;
+        height: 25px;
+        font-size: 10px;
+    }
+    .restaurent_body2 img {
+        width: 80px;
+        height: 80px;
+    }
+    .sign-up-btn {
+        width: 200px;
+    }
+    .sign-up-fbtn {
+        width: 200px;
+    }
+    .sign-up-gbtn {
+        width: 200px;
+    }
+    .sign-in-btn {
+        width: 220px;
+    }
+    .line-width {
+        width: 120%;
+    }
+    .input-form {
+        width: 220px;
+    }
+    .or_line {
+        width: 104%;
+    }
+    .text-right {
+        float: right !important;
+        padding-right: 15%;
+        font-size: 10px;
+    }
+    .fb-g-section {
+        position: relative;
+        width: 110%;
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+    /* home page */
+    #specification {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .justify-content-center {
+        margin-left: -6%;
+    }
+    .bottom-title p {
+        font-size: 9px;
+    }
+    .gallery-img img {
+        width: 60px;
+        height: 60px;
+    }
+    .pizza_name {
+        font-size: 12px;
+    }
+    .overlay {
+        height: 34%;
+        width: 82%;
+    }
+    .home-overlay {
+        height: 34%;
+        width: 82%;
+    }
+    .dark-img span {
+        font-size: 12px;
+    }
+    .home-box2 {
+        width: 15rem;
+        margin-left: 50px;
+        margin-bottom: 10%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 1200px) and (max-width: 1990px) {
+    .sign-in-link {
+        font-family: 'PT Serif', serif;
+        font-size: 16px;
+        color: #5e5e5e;
+        padding-left: 25px;
+    }
+    .form-control {
+        width: 460px;
+        font-size: 16px;
+    }
+    .list-inline {
+        padding-left: 10%;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .has-search .form-control-feedback {
+        padding-top: 11px;
+        font-size: 13px;
+    }
+    .col-auto {
+        color: #ffff;
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    .fas {
+        font-size: 14px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 50px) {
+    .imgBackground {
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 300px) {
+    .imgBackground {
+        max-height: 390px;
+    }
+}
+
+@media (min-width: 480px) {
+    .imgBackground {
+        max-height: 380px;
+    }
+}
+
+@media (min-width: 500px) {
+    .imgBackground {
+        max-height: 454px;
+    }
+}
+
+@media (min-width: 645px) {
+    .imgBackground {
+        max-height: 464px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imgBackground {
+        max-height: 614px;
+    }
+}
+
+@media (min-width: 960px) {
+    .imgBackground {
+        max-height: 584px;
+    }
+}
+
+@media (min-width: 1265px) {
+    .imgBackground {
+        max-height: 644px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .imgBackground {
+        max-height: 730px;
+    }
+}
